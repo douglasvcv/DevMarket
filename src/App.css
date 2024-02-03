@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.singup-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(79, 79, 79, 1);
+  
+}
+aside{
+  background:url(./images/background_singup.png);
+  background-position: 698px;
+  width: 45vw;
+  height: 100vh;
+}
+.singup-main{
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.singup-main h1{
+  margin-bottom: 10px;
+  font-weight: 900;
+  
+}
+.singup-main h2{
+  margin-bottom: 10px;
+  font-weight: 300;
+  
+}
+.singup-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.singup-input #email, #password{
+  margin: 0 0 20px 0;
+  width: 385px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(202, 202, 202, 1);
+}
+.singup-input #email:focus, #password:focus {
+    border: 1px solid rgba(126, 86, 134, 1);
+    outline: none;
+}
+.checkbox {
+  display: flex;
+  max-width: 28vw;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 30px;
+
+}
+.singup-input button{
+  background-color: rgba(126, 86, 134, 1);
+  color: #fff;
+  border: 1px solid rgba(204, 204, 204, 1);
+  width: 384px;
+  height: 34px;
+  border-radius: 30px;
+  font-size: larger;
+  font-weight: 900;
+  cursor: pointer;
+  
+}
+.singup-input button:hover{
+  background-color: rgb(173, 120, 184);
+  transition: 0.3s ease-in-out;
+}
